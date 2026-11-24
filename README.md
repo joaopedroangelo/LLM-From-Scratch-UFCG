@@ -1,11 +1,11 @@
 # GPT-2 do zero em português
 
-Atividade 1 da UFCG. O [notebook da graduação](atividade1_inicio.ipynb) segue as seções do roteiro original e será incrementado a cada semana. A Semana 1 treina um BPE de 16 mil tokens e um GPT-2 vanilla baseado no código de Sebastian Raschka em `guide/base-sebastian/`.
+Atividade 1 da UFCG. O [notebook da solução](atividade_solucao_121210320.ipynb) segue as seções do [notebook-base da disciplina](guide/atividade_base_original.ipynb) e será incrementado a cada semana. A Semana 1 treina um BPE de 16 mil tokens e um GPT-2 vanilla baseado no código de Sebastian Raschka em `guide/base-sebastian/`.
 
 ## Executar a Semana 1 no Colab
 
 1. Obtenha o ZIP privado `corpus_ufcg_introducoes_alunos.zip` pelo canal indicado pelo professor e coloque-o em **Meu Drive**.
-2. Abra `atividade1_inicio.ipynb` no Colab. Em **Ambiente de execução → Alterar tipo de ambiente de execução**, selecione uma GPU.
+2. Abra `atividade_solucao_121210320.ipynb` no Colab. Em **Ambiente de execução → Alterar tipo de ambiente de execução**, selecione uma GPU.
 3. Na primeira célula de código, ajuste `ZIP_NO_DRIVE` se o arquivo estiver em uma subpasta do Drive.
 4. Clique em **Executar tudo** e autorize a montagem do Drive. A última célula compara os tokenizadores, treina ou retoma o vanilla e gera a avaliação em `val.txt`.
 
