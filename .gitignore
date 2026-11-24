@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local test outputs
+/outputs/
+
+# Private course dataset
+/dataset/
